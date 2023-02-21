@@ -31,11 +31,11 @@
 
 Примеры запуска из командной строки для Windows:
 
-java Main -i -a out.txt in.txt 10 (для целых чисел по возрастанию, размер блока = 10 Mb)
+java Main -i -a out.txt i.txt 10 (для целых чисел по возрастанию, размер блока = 10 Mb)
 
-java Main -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию, размер блока = 30 Mb)
+java Main -s out.txt s.txt s2.txt s3.txt (для строк по возрастанию, размер блока = 30 Mb)
 
-java Main -d -s out.txt in1.txt in2.txt 100 (для строк по убыванию, размер блока = 100 Mb)
+java Main -d -s out.txt s.txt s2.txt 100 (для строк по убыванию, размер блока = 100 Mb)
 
 # Особенности реализации
 
